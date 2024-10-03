@@ -26,9 +26,9 @@ Here is a brief description of the key files and folders in this repository:
 - README.md                              # Project documentation
 - data_loader_ram.py                     # Data loader for handling orthophotograph and DSM data
 - dlinknet.py                            # Implementation of the D-LinkNet model
-- test_concatenate_dlinknet.py            # Script for testing D-LinkNet model on concatenated inputs (RGB+DSM)
+- test_concatenate_dlinknet.py           # Script for testing D-LinkNet model on concatenated inputs (RGB+DSM)
 - test_concatenate.py                    # Script for testing UNet model
-- test_concatenate_handcrafted.py         #  Script for training D-LinkNet model
+- test_concatenate_handcrafted.py        #  Script for training D-LinkNet model
 - train_concatenate.py                   # Script for training UNet model
 - train_concatenate_dlinknet.py          # Script for training D-LinkNet model
 - train_concatenate_handcrafted.py       # Script for training handcrafted models
@@ -39,7 +39,7 @@ Here is a brief description of the key files and folders in this repository:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fence-detection.git
+git clone https://github.com/r-wenger/MultiFranceFences-HIncepUNet
 cd fence-detection
 ```
 
