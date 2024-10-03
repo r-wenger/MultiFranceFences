@@ -40,7 +40,7 @@ Here is a brief description of the key files and folders in this repository:
 
 ```bash
 git clone https://github.com/r-wenger/MultiFranceFences-HIncepUNet
-cd fence-detection
+cd MultiFranceFences-HIncepUNet
 ```
 
 2. Install the required dependencies:
