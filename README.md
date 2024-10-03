@@ -109,7 +109,7 @@ python test_concatenate_dlinknet.py
 
 - For D-LinkNet: Open and edit `test_concatenate_dlinknet.py`.
 - For Handcrafted Model: Open and edit `test_concatenate_handcrafted.py`.
-- For other models like UNet and H-IncepUNet: Open and edit `test_concatenate.py`.
+- For UNet Model: Open and edit `test_concatenate.py`.
 
 ## Model Architectures
 
