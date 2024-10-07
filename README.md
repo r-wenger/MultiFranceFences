@@ -115,7 +115,7 @@ python test_concatenate_dlinknet.py
 ## Model Architectures
 
 - **D-LinkNet**: A model optimized for detecting linear objects like roads and fences using a dilated convolutional network. Implementation is available in `dlinknet.py`.
-- **H-IncepUNet**: Custom deep learning model combining an Inception module with UNet for precise fence segmentation.
+- **H-IncepUNet**: Custom deep learning model combining an Inception module and handcrafted features with UNet for precise fence segmentation.
 - **UNet**: Baseline semantic segmentation model.
 
 ## Citation
