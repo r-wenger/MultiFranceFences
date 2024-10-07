@@ -32,6 +32,7 @@ Here is a brief description of the key files and folders in this repository:
 - train_concatenate.py                   # Script for training UNet model
 - train_concatenate_dlinknet.py          # Script for training D-LinkNet model
 - train_concatenate_handcrafted.py       # Script for training handcrafted models
+- graphical_validation.py                # Script to get the tool to visualize each ortho patch and reference for visual cleaning
 ```
 
 ## Installation
