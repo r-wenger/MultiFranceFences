@@ -126,9 +126,9 @@ If you use this repository in your research, please cite the corresponding paper
 @article{wenger2024fences,
   title={Where are the fences? A new deep learning approach to detect fences using multimodal aerial imagery},
   author={Wenger, Romain and Maire, Eric and Buton, Caryl and Moulherat, Sylvain and Staentzel, Cybill},
-  journal={Landscape and Urban Planning},
+  journal={Submitted},
   year={2024},
-  publisher={Elsevier}
+  publisher={}
 }
 ```
 
