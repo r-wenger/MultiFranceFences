@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## Data
 
-This repository works with the **MultiFranceFences** dataset, which includes RGB orthophotographs and DSM data. You can download the dataset from [this link](https://www.easydata.earth/#/my-projects/75ba2410-a74f-4cd3-98f3-ebbec6cb52e5).
+This repository works with the **MultiFranceFences** dataset, which includes RGB orthophotographs and DSM data. You can download the dataset from [this link](https://zenodo.org/records/13902550).
 
 ```
 - MultiFranceFences/
