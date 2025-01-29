@@ -116,12 +116,6 @@ Key libraries:
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📜 Citation
 If you use this work, please cite:
 
@@ -135,6 +129,8 @@ If you use this work, please cite:
 }
 ```
 
-## License
+---
 
-This repository is licensed under the MIT License. See `LICENSE` for more details.
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
