@@ -1,6 +1,6 @@
 # Fence Detection with Deep Learning
 
-This repository contains the implementation of various deep learning models configuration to detect fences using multimodal imagery (RGB and DSM). The project, related to the paper **Where are the fences? A new deep learning approach to detect fences using multimodal aerial imagery**, explores the impact of different fusion strategies, loss functions, and sampling techniques on model performance. It also includes tools for dataset visualization and evaluation.
+This repository contains the implementation of various deep learning models configuration to detect fences using multimodal imagery (RGB and DSM). The project, related to the paper **Where are the fences? A new deep learning approach to detect fences using multimodal aerial imagery**, explores the impact of different fusion strategies, loss functions, and sampling techniques on model performance. It also includes tools for dataset visualization and evaluation. This work is the first one to address fence detection using aerial imagery.
 
 ## 🚀 Features
 
