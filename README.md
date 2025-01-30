@@ -1,13 +1,13 @@
 # Fence Detection with Deep Learning
 
-This repository contains the implementation of various deep learning models for detecting fences using multimodal inputs such as RGB orthophotos and Digital Surface Models (DSM). The project explores the impact of different fusion strategies, loss functions, and sampling techniques on model performance. It also includes tools for dataset visualization and evaluation.
+This repository contains the implementation of various deep learning models configuration to detect fences using multimodal imagery (RGB and DSM). The project, related to the paper **Where are the fences? A new deep learning approach to detect fences using multimodal aerial imagery**, explores the impact of different fusion strategies, loss functions, and sampling techniques on model performance. It also includes tools for dataset visualization and evaluation.
 
 ## 🚀 Features
 
-- Support for multiple architectures: **UNet**, **UNetLateFusion**, **UNetConcatenate**, and **D-LinkNet**.
+- Multiple architectures: **UNet**, **UNetLateFusion**, **UNetConcatenate**, and **D-LinkNet**.
 - Multimodal input support (RGB + DSM).
-- Flexible loss functions: Dice Loss, Binary Cross-Entropy (BCE), and Combined Loss.
-- Stratified sampling strategies: random and geographic.
+- Flexible loss functions: Dice Loss, Binary Cross-Entropy (BCE), and Combined Loss (Dice + BCE).
+- Sampling strategies: random and geographic.
 - Tools for dataset visualization and validation.
 
 ---
@@ -16,13 +16,13 @@ This repository contains the implementation of various deep learning models for 
 
 ```
 ├── Departments/             # GPKG dataset for geographic stratification (train, val, test)
-├── LICENSE                  # Project license
-├── README.md                # Documentation
-├── data_loader.py           # Data loading pipeline for RGB, DSM, and masks
-├── graphical_validation.py  # Dataset visualization tool for inspecting masks and features
+├── LICENSE                  # Code license
+├── README.md                
+├── data_loader.py           # Data loading pipeline for RGB, DSM, and masks, adapted to each network
+├── graphical_validation.py  # Dataset visualization tool for inspecting masks and features (launch it separately)
 ├── loss.py                  # Implementation of Dice Loss, BCE, and Combined Loss
-├── main.py                  # Script for training models
-├── main_test.py             # Script for testing and evaluating models
+├── main.py                  # Script for training models (modify each path/variable in the config function)
+├── main_test.py             # Script for testing and evaluating models (modify each path/variable in the config function)
 ├── model.py                 # Implementation of UNet, UNetLateFusion, UNetConcatenate, and D-LinkNet
 ├── requirements.txt         # Python dependencies
 ├── test.py                  # Evaluation metrics and patch analysis
@@ -43,6 +43,8 @@ The project expects the following directory structure for the dataset:
 └── fences_2m/    # Binary masks (2-meter buffer for fences)
 ```
 
+You can download it here: [MultiFranceFences](https://zenodo.org/records/13902550)
+
 ### 2. Geographic Stratification
 The `Departments/` folder contains a **GeoPackage (GPKG)** file, which ensures balanced geographic stratification for training, validation, and testing splits. This is critical for evaluating generalization across regions.
 
@@ -56,7 +58,7 @@ The `graphical_validation.py` script is designed to help you visually inspect th
 python graphical_validation.py
 ```
 
-Output visualizations are saved in the specified output directory, allowing you to check annotations and data alignment.
+It saves the name of the patch and the tag (valid or not) in a CSV file.
 
 ---
 
@@ -69,6 +71,8 @@ The training script (`main.py`) is built around a flexible `Config` class. Key p
 - **Sampling strategies**: random or geographic.
 - **Loss functions**: Dice Loss, BCE, or Combined Loss.
 - **Learning rate and scheduler**: Supports dynamic learning rate reduction.
+
+The code is commented. You can adapt the class depending on your needs. It is developed in order to use multi-GPU with `nn.DataParallel`.
 
 ### 2. Running the Training
 To start training, modify the `Config` class in `main.py` and execute:
