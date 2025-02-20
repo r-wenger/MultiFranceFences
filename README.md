@@ -125,7 +125,7 @@ If you use this work, please cite:
 
 ```
 @article{wenger2024fences,
-  title={Where are the fences? A new deep learning approach to detect fences using multimodal aerial imagery},
+  title={Where are the fences? Large-scale fence detection using deep learning and multimodal aerial imagery},
   author={Wenger, Romain and Maire, Eric and Buton, Caryl and Moulherat, Sylvain and Staentzel, Cybill},
   journal={Submitted},
   year={2024},
