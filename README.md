@@ -127,9 +127,10 @@ If you use this work, please cite:
 @article{wenger2024fences,
   title={Where are the fences? Large-scale fence detection using deep learning and multimodal aerial imagery},
   author={Wenger, Romain and Maire, Eric and Buton, Caryl and Moulherat, Sylvain and Staentzel, Cybill},
-  journal={Submitted},
+  journal={Remote Sensing Applications: Society and Environment},
+  pages={In Press},
   year={2025},
-  publisher={}
+  publisher={Elsevier}
 }
 ```
 
