@@ -124,13 +124,16 @@ Key libraries:
 If you use this work, please cite:
 
 ```
-@article{wenger2024fences,
-  title={Where are the fences? Large-scale fence detection using deep learning and multimodal aerial imagery},
-  author={Wenger, Romain and Maire, Eric and Buton, Caryl and Moulherat, Sylvain and Staentzel, Cybill},
-  journal={Remote Sensing Applications: Society and Environment},
-  pages={In Press},
-  year={2025},
-  publisher={Elsevier}
+@article{wenger2025fences,
+title = {Where are the fences? Large-scale fence detection using deep learning and multimodal aerial imagery},
+journal = {Remote Sensing Applications: Society and Environment},
+volume = {39},
+pages = {101658},
+year = {2025},
+issn = {2352-9385},
+doi = {https://doi.org/10.1016/j.rsase.2025.101658},
+url = {https://www.sciencedirect.com/science/article/pii/S2352938525002113},
+author = {Romain Wenger and Eric Maire and Caryl Buton and Sylvain Moulherat and Cybill Staentzel}
 }
 ```
 
