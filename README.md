@@ -10,13 +10,7 @@ This repository contains the implementation of various deep learning models conf
 - Sampling strategies: random and geographic.
 - Tools for dataset visualization and validation.
 
-### 🧠 Model Architecture
 
-The segmentation models are based on the UNet architecture and its multimodal extensions (e.g., Late Fusion). Below is the structure of the proposed **UNetLateFusion** model:
-
-<p align="center">
-  <img src="Figs/model.png" alt="Model architecture used in the paper" width="700"/>
-</p>
 
 ---
 
