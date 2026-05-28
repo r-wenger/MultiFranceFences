@@ -11,8 +11,8 @@ from datetime import datetime
 def get_loss_function(loss_type):
     if loss_type == 'dice':
         return DiceLoss()
-    elif loss_type == 'focal':
-        return FocalLoss(alpha=0.25, gamma=2)
+    elif loss_type == 'bce':
+        return nn.BCEWithLogitsLoss()
     elif loss_type == 'combined':
         return CombinedLoss()
     else:
