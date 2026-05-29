@@ -40,7 +40,7 @@ class Config:
         self.patience = 10
 
         # Perte
-        self.loss_type = 'dice'  # 'dice' or 'focal' or 'combined'
+        self.loss_type = 'dice'  # 'dice' or 'bce' or 'combined'
         
         # Optimiseur et scheduler
         self.optimizer = 'Adam'
